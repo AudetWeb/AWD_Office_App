@@ -1,0 +1,15 @@
+#header-panel .banner {
+    display: none;
+}
+
+#header-panel .navigation-line {
+    display: none;
+}
+
+#content-panel .lhsPanel {
+    display: none;
+}
+
+#footer-panel {
+    display: none;
+}

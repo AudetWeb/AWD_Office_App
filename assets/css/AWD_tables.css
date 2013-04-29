@@ -1,0 +1,94 @@
+/* --------------------------------------- */
+/* Table Styling                           */
+.plainHorizontal {
+    margin: 1.00em 0;
+}
+.plainHorizontal th, .plainHorizontal td {
+    padding: 10px 5px;
+    vertical-align:  middle;
+}
+.plainHorizontal th {
+    background-color: #F0F0F0;
+}
+.plainHorizontal td {
+    border-bottom: 2px solid #F0F0F0;
+}
+.plainHorizontal.alignTop td {
+    vertical-align:  top;    
+}
+.plainHorizontal.alignRight td, .plainHorizontal td.alignRight {
+    text-align:  right;    
+}
+.plainHorizontal.alignLeft td, .plainHorizontal td.alignLeft {
+    text-align:  left;    
+}
+.plainHorizontal.borderRight td {
+    border-right: 1px dotted #E0E0E0;
+}
+.plainHorizontal tr.topBorderBlack td {
+    border-top: 3px solid #E0E0E0;
+    color: #0000FF;
+}
+.plainHorizontal tr.leftBorderBlack td, .plainHorizontal td.leftBorderBlack {
+    border-left: 3px solid #E0E0E0;
+}
+
+.plainVertical {
+    border: 1px solid #F0F0F0;
+    margin: 1.00em 0;
+    width: auto;
+    min-width: 600px;
+}
+.plainVertical th, .plainVertical td {
+    padding: 5px;
+}
+.plainVertical th {
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #FFFFFF;
+    vertical-align:  top;
+    text-align: right;
+    width: 35%;
+}
+.plainVertical td {
+    border-top: 1px solid #F0F0F0;
+}
+
+.statusProfile {
+    position: relative;
+    overflow: auto;
+}
+.statusProfile em {
+    font-style:  normal;
+    font-size: 0.75em;
+    border: 1px solid #CCCCCC;
+    color: #CCCCCC;
+    margin-right: 2px;
+    width: auto;
+    padding: 0.10em;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.statusProfile em.highLight {
+    border: 1px solid #336600;
+    background-color: #336600;
+    color: #FFFFFF;
+}
+.statusProfile em.lowLight {
+    border: 1px solid #336600;
+    color: #336600;
+}
+
+td.status {
+    width: 7.00em;
+}
+
+th.small-text, td.small-text {
+    color: #333333;
+    font-size: 0.80em;
+    text-align: center;
+}
+th.small-text {
+}
+td.small-text {
+}

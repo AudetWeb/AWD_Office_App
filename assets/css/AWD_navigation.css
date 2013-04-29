@@ -1,0 +1,121 @@
+/* Navigation Panel */
+ul.nav {
+}
+ul.nav a {
+	text-decoration: none;
+}
+ul.nav a:hover {
+	text-decoration: none;
+}
+
+ul.nav li {
+    margin: 1.00em 0;
+}
+ul.nav li a, ul.nav li b {
+    display: block;
+    padding: 5px;
+}
+ul.nav li a:hover {
+    background-color: white;
+}
+
+.navigation-line ul.nav {
+	overflow: auto;
+}
+.navigation-line ul.nav li {
+	float: left;
+	margin: 0 1.00em 0 0;
+}
+.navigation-line ul.nav a {
+	display: block;
+	padding: 5px 10px;
+	color: #000000;
+    background-color: white;
+    border: 1px solid white;
+}
+.navigation-line ul.nav a:hover {
+	color: white;
+	background-color: gray;
+    border: 1px solid gray;
+}
+
+.navigation-line li.current a {
+    color: #0000FF;
+    border: 1px solid #0000FF;
+}
+
+.navGroupPanel {
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: auto;
+    padding: 5px;
+}
+.navGroupPanel h2 {
+    text-align: left;
+    color: #999999;
+    margin: 0 0 0 0;
+    padding: 0 0 0 5px;
+}
+.navGroupPanel ul.nav li {
+    margin: 0;
+}
+
+.stateLinkPanel {
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: auto;
+    padding: 2px;
+}
+.stateLinkPanel h2 {
+    text-align: center;
+    padding: 5px 0;
+    color: #999999;
+}
+.stateLinkPanel a { 
+    float: left;
+    padding: 6px 2px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+.stateLinkPanel a:hover {
+    background-color: #F0F0F0;
+    color: #000000;
+}
+
+.stateLinkPanel h2 a {
+    float: none;
+    padding: 4px;
+    margin-right: 0;
+    font-weight: normal;
+    font-size: 0.75em;
+}
+.stateLinkPanel h2 a:hover {
+}
+
+tr.stateLink td {
+    text-align: center;
+    vertical-align: middle;
+}
+.stateLink a {
+    display: block;
+    font-size: 1.10em;
+    font-weight: bold;
+    color: #333333;
+    width: auto;
+    padding: 5px;
+    text-decoration: none;
+}
+.stateLink a:hover {
+    background-color: #F0F0F0;   
+}
+
+a.webLink {
+    font-size: 1.00em;
+    font-weight: bold;
+    color: #CCCCCC;
+    background-color: #333333;
+    padding: 0px 2px;
+    text-decoration: none;    
+}

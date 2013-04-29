@@ -1,0 +1,219 @@
+/* --------------------------------------- */
+/* General Styles                          */
+
+/* Text Color */
+h1, h2, h3, h4, h5, h6, strong { 
+}
+
+/* --------------------------------------- */
+/* Sizing                                  */
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+h3 { font-size: 110%; }
+h4 { font-size: 100%; }
+h5 { font-size: 100%; }
+h6 { font-size: 100%; }
+
+/* --------------------------------------- */
+/* Links                                   */
+a {
+	color: #0000FF;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* --------------------------------------- */
+/* Content Panel                           */
+h1.pageTitle {
+	margin: 0 0 0.50em 0;
+    color: #999999;
+}
+h1.pageTitle em {
+    margin-left: 1.00em;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.80em;
+    color: #999999;
+    position: relative;
+    bottom: 0.1em;
+}
+
+
+p {
+	margin: 0 0 1.00em 0;
+}
+
+ol {
+    margin-top: 2.00em;
+    list-style-type: decimal;
+}
+ol li {
+    margin: 0.50em 0 0.50em 2.00em;
+}
+
+dl.resourceList {
+}
+dl.resourceList dt {
+    margin: 1.50em 0 0 0;
+}
+dl.resourceList dd {
+    margin: 0.75em 0 0 1.00em;
+}
+dl.resourceList dt b a {
+    font-size: 0.80em;
+    padding: 2px 5px;
+    margin-left: 0.50em;
+    border: 1px solid #CCCCCC;
+    text-decoration: none;
+}
+dl.resourceList dt em {
+    font-style: normal;
+    font-size: 0.80em;
+}
+
+ul.standardList {
+}
+
+ul.standardList li {
+    margin: 1.00em 0;
+}
+
+ul.standardList b a {
+    font-size: 0.80em;
+    padding: 2px 5px;
+    margin-left: 0.50em;
+    border: 1px solid #CCCCCC;
+    text-decoration: none;
+}
+ul.standardList em {
+    font-style: normal;
+    font-size: 0.80em;
+}
+
+/* --------------------------------------- */
+/* Footer Panel                            */
+#footer-panel .copyright {
+	padding: 0px 10px;
+	text-align: center;
+	color: blue;
+}
+
+/* --------------------------------------- */
+/* Image Placement                         */
+.imgTopRight {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+
+/* --------------------------------------- */
+/* Home Page                               */
+
+/* --------------------------------------- */
+/* Controls                                */
+a.button {
+    background-color: #F0F0F0;
+    border: 1px solid #333333;
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: normal;
+}
+a.button:hover {
+    background-color: #FFCC00;
+}
+
+a.button-block-small {
+    background-color: #F0F0F0;
+    border: 1px solid #333333;
+    color: #000000;
+    cursor: pointer;
+    padding: 2px 4px;
+    text-decoration: none;
+    font-size: 0.80em;
+    font-weight: normal;
+    display: block;
+}
+a.button-block-small:hover {
+    background-color: #FFCC00;
+}
+
+.openCloseButton {
+	color: blue;
+	cursor: pointer;
+	margin: 1.00em 0;
+}
+.hoverDeco {
+	background-color: lightgray;
+}
+
+.stateSummaryPanel {
+    background-color: #D0D0D0;
+    padding: 10px;
+    overflow: auto;
+}
+.stateSummaryPanel .stateInfo {
+    float: left;
+    width: 68px;
+    padding: 5px;
+    margin: 0 10px 10px 0;
+    background-color: #FFFFFF;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.stateInfo a {
+    display: block;
+    font-size: 1.50em;
+    font-weight: bold;
+    color: #666666;
+    width: auto;
+    padding: 4px 8px;
+    text-decoration: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.stateInfo a:hover {
+    color: #FFFFFF;
+    background-color: #666666;   
+}
+.stateInfo b {
+    display: block;
+    font-size: 1.50em;
+    font-weight: bold;
+    color: #888888;
+    text-align: right;
+    padding: 4px 8px;
+}
+
+.linksPanel {
+    overflow: auto;
+    margin: 0 0 2.00em 0;
+    padding: 10px;
+    background-color: #F0F0F0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.linksPanel p {
+    margin: 0;
+}
+.linksPanel .counts {
+    float: left;
+}
+.linksPanel .links {
+    float: right;
+}
+.linksPanel .links a {
+    margin-left: 2.00em;
+}
+
+h2.error {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}

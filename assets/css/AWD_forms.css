@@ -1,0 +1,119 @@
+.profile {
+}
+.profile input {
+    width: 25.0em;
+    font: inherit;
+}
+.profile input.short {
+    width: 12.0em;
+}
+
+.profile input.button {
+    width: auto;
+}
+.profile input.smallButton {
+    float: right;
+    width: 2.00em;
+    margin-left: 5px;
+    font-size: 0.75em;
+}
+
+.profile textarea {
+    width: 25.0em;
+    height: 5.0em;
+    font: inherit;
+}
+.profile textarea.short {
+    height: 3.0em;    
+}
+.profile textarea.tall {
+    height: 40.0em;    
+}
+.profile textarea.wide {
+    width: 60.0em;    
+}
+
+.profile th b, b.required-icon {
+    font-size: 0.80em;
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    margin: 0.50em;
+}
+.profile td.stack b {
+    font-size: 0.80em;
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    margin: 0.50em
+}
+
+
+.profile td i {
+    display: block;
+    color: #404040;
+    font-size: 0.90em;
+}
+
+.profile td.stack label {
+    display: block;
+    color: #404040;
+    font: 1.00em "Lucida Console", Monaco, "Bitstream Vera Sans Mono", Terminal, monospace;
+    letter-spacing: 1px;
+}
+.profile td.stack input, .profile td.stack select {
+    display: block;
+    margin-bottom: 1.00em;
+}
+.profile td.stack textarea {
+    display: block;
+    margin-bottom: 1.00em;
+}
+
+
+label.error {
+    display: block;
+    font-weight: bold;
+    color: red;
+}
+.profile td.stack label.error {
+    font-family: inherit;
+    display: block;
+    font-weight: bold;
+    color: red;
+    margin: -1.00em 0 1.00em 0;
+    letter-spacing: 0px;
+}
+
+.profile .submitControl {
+    width: 200px;
+    margin: 0 0px 0 10px;
+    padding: 10px;
+    background-color: #F0F0F0;
+    border-radius: 15px;
+    position: fixed;
+    left: 5%;
+    top: 25%;
+}
+
+input.button, button, .togglePanel input.button, .togglePanel button {
+    width: auto;
+    margin: 0 0.00em 0 0;
+    padding: 4px 8px;
+}
+button.openClick {
+}
+
+.wFixMed {
+    width: 25em;
+}
+
+.plainHorizontal input {
+    width: 12.0em;
+    font: inherit;
+}
+.plainHorizontal input.short {
+    width: 8.0em;
+}
