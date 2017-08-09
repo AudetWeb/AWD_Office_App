@@ -326,7 +326,7 @@ class Site extends CI_Controller {
 
     function _verify_user($username,$password)
     {
-        if ( ($username == 'admin' && $password == 'admin2020')  ) 
+        if ( ($username == 'admin' && $password == 'adminpassword')  ) 
         {
             $newdata = array(
                    'user_name' => $username,
